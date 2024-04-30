@@ -13,7 +13,7 @@ This repository contains the development and application of various models and m
 ### Data
 The dataset used for training and evaluating the retrieval system can be found on Google Drive. Due to its size, it's not included directly in this repository. You can download the dataset from the following link:
 
-[Google Drive - Dataset]([insert_link_to_google_drive_here](https://drive.google.com/drive/folders/15m-KyHoKmaZYd-NKeBpaw3jgiX0Avvjb?usp=sharing))
+[Google Drive - Dataset](https://drive.google.com/drive/folders/15m-KyHoKmaZYd-NKeBpaw3jgiX0Avvjb?usp=sharing)
 
 Once downloaded, extract the dataset and ensure that the data paths in the scripts are correctly set to where you've stored the extracted files.
 
