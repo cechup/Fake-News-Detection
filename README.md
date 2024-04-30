@@ -11,7 +11,11 @@ This repository contains the development and application of various models and m
 - **NLP.py**: Python script focused on natural language processing aspects of the project.
 
 ### Data
-- **data.zip**: Enclosed data files used in the analysis (Note: due to the potential size, this data needs to be extracted and prepared as described below).
+The dataset used for training and evaluating the retrieval system can be found on Google Drive. Due to its size, it's not included directly in this repository. You can download the dataset from the following link:
+
+[Google Drive - Dataset]([insert_link_to_google_drive_here](https://drive.google.com/drive/folders/15m-KyHoKmaZYd-NKeBpaw3jgiX0Avvjb?usp=sharing))
+
+Once downloaded, extract the dataset and ensure that the data paths in the scripts are correctly set to where you've stored the extracted files.
 
 ### Report
 - **report.pdf**: A detailed report in PDF format that encapsulates the methodologies, experiments, results, and insights from the study.
@@ -23,7 +27,7 @@ The project utilizes a combination of statistical and machine learning technique
 ## Data Setup
 
 1. Download the dataset from the provided source.
-2. Extract data.zip into a designated folder within the project directory.
+2. Extract all the files contained in the Drive folder into a designated folder within the project directory.
 3. Ensure that the data paths in the scripts are correctly set to where you've stored the extracted files.
 
 ## Requirements and Setup
