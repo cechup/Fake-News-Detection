@@ -1,6 +1,6 @@
 # Fake News Detection using Text Mining and Statistical Models
 
-This repository contains the development and application of various models and methods for detecting fake news using text mining and statistical modeling approaches. It includes scripts written in Python and R for data analysis and model development, as well as a comprehensive report detailing the methodologies, experiments, results, and conclusions of the project.
+This repository contains the development and application of various models and methods for detecting fake news using text mining and statistical modeling approaches. It explores various machine learning techniques to classify news articles as fake or real based on their content and features, with scripts written in Python and R for data analysis and model development, as well as a comprehensive report detailing the methodologies, experiments, results, and conclusions of the project.
 
 ## Folder Contents
 
@@ -28,20 +28,60 @@ The project utilizes a combination of statistical and machine learning technique
 
 ## Requirements and Setup
 
-This project requires Python 3.8+, R, and several dependencies that are listed in requirements.txt.
+This project requires Python 3.8+, R, and several dependencies listed in requirements.txt for Python and requirementsR.txt for R.
 
-To set up and run the project:
+### Python Dependencies
+To install the required Python packages, ensure you have Python 3.8+ installed on your system, and then run the following command:
 ```bash
-pip install -r requirements.txt
-python analisi_esplorativa.py
-Rscript explorative_analysis.R
+pip install -r requirementsPy.txt
 ```
-# Running the Analysis
-Execute each script from the command line to perform the analysis:
-```
-python models.py
-python NLP.py
-```
+
+### R Dependencies
+
+To install the required R packages, follow these steps:
+
+1. **Install R:**
+   - If you haven't already, download and install R from the [R Project website](https://www.r-project.org/).
+
+2. **Install Required Packages:**
+   - Open R or RStudio.
+   - Run the following command to install the required packages from CRAN:
+     ```R
+     install.packages(c("package1", "package2", "package3"))
+     ```
+     Replace `"package1"`, `"package2"`, etc. with the names of the R packages listed in the `requirementsR.txt` file.
+
+3. **Verify Installation:**
+   - Once the packages are installed, you can verify that they were installed correctly by loading them in R:
+     ```R
+     library(package1)
+     library(package2)
+     ```
+   - If no error messages are displayed, the packages were successfully installed.
+
+
+## Running the Project
+To run the project, execute the following commands in the specified order:
+
+1. **Exploratory Data Analysis (Optional):**
+   - If you wish to generate the graphs reported in the report, execute:
+     ```bash
+     python explorative_analysis.py
+     ```
+
+2. **NLP Analysis:**
+   - Execute the text mining analysis script:
+     ```bash
+     python NLP.py
+     ```
+
+3. **Model Training and Evaluation:**
+   - Finally, run the script for model training and evaluation:
+     ```bash
+     python models.py
+     ```
+
+These commands will execute the Python scripts in the specified order, allowing you to perform exploratory data analysis, NLP analysis, and model training and evaluation for the project.
 
 ## Results
 Detailed results can be viewed in the report.pdf, which includes discussion on methodology, model evaluation, and conclusions based on the analysis.
